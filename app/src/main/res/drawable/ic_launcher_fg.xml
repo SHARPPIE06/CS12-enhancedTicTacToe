@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Neon Purple Outer 4x4 Frame -->
+    <path
+        android:fillColor="#1E2547"
+        android:strokeColor="#7C4DFF"
+        android:strokeWidth="2.2"
+        android:pathData="M30,25 L78,25 Q83,25 83,30 L83,78 Q83,83 78,83 L30,83 Q25,83 25,78 L25,30 Q25,25 30,25 Z" />
+
+    <!-- 4x4 Grid Lines -->
+    <path
+        android:strokeColor="#3D4B8A"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M40,27 L40,81 M54,27 L54,81 M68,27 L68,81 M27,40 L81,40 M27,54 L81,54 M27,68 L81,68" />
+
+    <!-- Winning Diagonal Strike Line (Emerald Glow) -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeAlpha="0.45"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M31,31 L77,77" />
+
+    <!-- 4 Cyan X's Connecting Diagonally -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M29.5,29.5 L36.5,36.5 M36.5,29.5 L29.5,36.5
+                          M43.5,43.5 L50.5,50.5 M50.5,43.5 L43.5,50.5
+                          M57.5,57.5 L64.5,64.5 M64.5,57.5 L57.5,64.5
+                          M71.5,71.5 L78.5,78.5 M78.5,71.5 L71.5,78.5" />
+
+    <!-- 3 Neon Pink O's -->
+    <path
+        android:strokeColor="#FF3D81"
+        android:strokeWidth="2.4"
+        android:pathData="M75,29.4 A3.6,3.6 0 1,0 75,36.6 A3.6,3.6 0 1,0 75,29.4 Z
+                          M33,71.4 A3.6,3.6 0 1,0 33,78.6 A3.6,3.6 0 1,0 33,71.4 Z
+                          M61,43.4 A3.6,3.6 0 1,0 61,50.6 A3.6,3.6 0 1,0 61,43.4 Z" />
+</vector>
